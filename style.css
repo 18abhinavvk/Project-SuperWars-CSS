@@ -2,3 +2,26 @@
   margin-left : 80px;
   font-size : 18px;
 }
+.box{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto auto auto;
+
+}
+
+.hero, .antagonist{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1in;
+  padding-right: 20%;
+}
+
+.score{
+  font-size: 300%;
+  text-align: center;
+}
+.hero>div, .antagonist>div{
+  border-radius: 10px;
+  box-shadow: .5px .5px 5px 1px rgb(19, 13, 13);
+  text-align: center;
+}
